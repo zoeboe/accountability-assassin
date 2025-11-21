@@ -17,17 +17,37 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene office
+    scene black
+
+    pause 1.0
+
+    scene cg_silhouette-shoot with fade:
+        zoom 2
+        xalign .2 yalign .2
+
+    pause 3.0
+
+    scene black with fade
+
+    scene office with fade
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show guyleen
+    pause 1.0
 
-    show womeen at right
+    show guyleen with dissolve 
 
-    show perseen at left
+    g "Hghgh"
+
+    show womeen at right with dissolve
+
+    w "..."
+
+    show perseen at left with dissolve
+
+    p "Are you okay?"
 
 
     # These display lines of dialogue.
