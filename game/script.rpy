@@ -37,15 +37,21 @@ label start:
 
     pause 1.0
 
-    show guyleen with dissolve 
+    show guyleen with dissolve:
+        zoom .8
+        xalign .4 yalign .6
 
     g "Hghgh"
 
-    show womeen at right with dissolve
+    show womeen at right with dissolve:
+        zoom .7
+        xalign .8 yalign .2
 
     w "..."
 
-    show perseen at left with dissolve
+    show perseen at left with dissolve:
+        zoom .9
+        xalign .2
 
     p "Are you okay?"
 
