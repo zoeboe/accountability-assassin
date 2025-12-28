@@ -52,9 +52,11 @@ label start:
 
     w "...."
 
-    show perseen at left with dissolve:
-        zoom .9
-        xalign .2
+    show customeen at left with dissolve:
+        zoom .33
+        align (.5, .5)
+        xoffset -500
+        yoffset 200
 
     p ".... which is exactly what we're looking for."
 
