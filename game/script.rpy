@@ -17,15 +17,15 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene black
+   # scene black
 
-    pause 1.0
+    #pause 1.0
 
-    scene cg_silhouette-shoot with fade:
-        zoom 2
-        xalign .2 yalign .2
+   # scene cg_silhouette-shoot with fade:
+    #    zoom 2
+    #    xalign .2 yalign .2
 
-    pause 3.0
+   # pause 3.0
 
     scene black with fade
 
