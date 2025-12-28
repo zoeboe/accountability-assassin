@@ -38,12 +38,13 @@ label start:
     pause 1.0
 
     show guyleen with dissolve:
-        zoom .8
+        zoom .43
         align (.5, .5)
+        yoffset 200
 
     g "...."
 
-    show womeen at right with dissolve:
+    show womeen behind guyleen at right with dissolve:
         zoom .33
         align (.5, .5)
         xoffset 400
